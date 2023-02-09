@@ -1,6 +1,5 @@
-
 body{
-    background-color: rgb(252, 246, 197);
+    background-color: rgb(238, 238, 238);
 }
 
 .div{
@@ -8,12 +7,35 @@ body{
     font-weight: normal;
     font-size: 25px;
     text-align: center;
+    background-color: rgb(255, 220, 124);
+    padding: 15px;
+    border-radius: 10px;
+    color: white;;
 }
 
 .list{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 50px;
+    margin-left: 40px;
     text-align: left;
     font-size: 18px;
     font-weight: bold;
+    background-color: rgb(255, 220, 124);
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 40px;
+    color: white;
+}
+
+.logo{
+    margin:auto;
+    width: 700px;
+    height: 100%;
+    background-image: url(images/the-odin-project-logo-skill-finder-partners-page.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo.alignment{
+    margin-top: 100px;
 }

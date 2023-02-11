@@ -1,0 +1,83 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.header{
+    background-image: url('images-asia/hakan-nural-DZ66ut4KQzs-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+}
+
+.top{
+    display: flex;
+    flex: 1;
+    gap: 40px;
+}
+
+.logodiv{
+    display: inline-flex;
+    width: 150px;
+    height: 150px;
+    margin: 0 0 0 20px
+}
+
+.logo{
+    width: 90%;
+    height: 90%;
+}
+
+.titleflex{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex: 10;
+}
+
+.title{
+    font-size: 6em;
+    font-weight: bold;
+    color: white;
+    margin-left: 250px;
+}
+
+.teamflex{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.aboutflex{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.contactflex{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.contact{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}

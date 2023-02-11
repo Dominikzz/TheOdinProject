@@ -4,6 +4,9 @@
     margin: 0;
 }
 
+body{
+    font-family: Julee, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .header{
     background-image: url('images-asia/hakan-nural-DZ66ut4KQzs-unsplash.jpg');
@@ -31,6 +34,10 @@
     height: 90%;
 }
 
+.logolink:hover{
+    box-shadow: 0px -5px 0px white inset;
+}
+
 .titleflex{
     display: inline-flex;
     justify-content: center;
@@ -42,7 +49,7 @@
     font-size: 6em;
     font-weight: bold;
     color: white;
-    margin-left: 250px;
+    margin-left: 190px;
 }
 
 .teamflex{
@@ -53,7 +60,7 @@
 
 .team{
     color: white;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
 }
 
@@ -65,7 +72,7 @@
 
 .about{
     color: white;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
 }
 
@@ -78,6 +85,6 @@
 
 .contact{
     color: white;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
 }

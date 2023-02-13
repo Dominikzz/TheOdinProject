@@ -4,22 +4,28 @@
     margin: 0;
 }
 
+
 body{
-    font-family: Julee, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Carter One', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.header{
+.page{
     background-image: url('images-asia/hakan-nural-DZ66ut4KQzs-unsplash.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-size: cover;
-    height: 700px;
+    height: 1280px;
 }
 
 .top{
     display: flex;
-    flex: 1;
     gap: 40px;
+    font-family: Julee, 'Lucida Grande';
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 5px white;
+    text-shadow: 0 0 5px white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .logodiv{
@@ -34,10 +40,6 @@ body{
     height: 90%;
 }
 
-.logolink:hover{
-    box-shadow: 0px -5px 0px white inset;
-}
-
 .titleflex{
     display: inline-flex;
     justify-content: center;
@@ -49,7 +51,7 @@ body{
     font-size: 6em;
     font-weight: bold;
     color: white;
-    margin-left: 190px;
+    margin-left: 195px;
 }
 
 .teamflex{
@@ -87,4 +89,63 @@ body{
     color: white;
     font-size: 1.7em;
     font-weight: bold;
+}
+
+.info{
+    text-shadow: 0 0 3px white;
+    background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 5px white;
+    margin: 200px auto;
+    display: flex;
+    height: 550px;
+    width: 1540px;
+    border-radius: 20px;
+    gap: 40px;
+}
+
+.infoflex{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.paragraphinfo{
+    color: white;
+    font-size: 1.9em;
+    margin: 0 0 0 40px;
+}
+
+.paragraphinfo2{
+    color: white;
+    font-size: 1.4em;
+    max-width: 700px;
+    margin: 20px 0 0 40px;
+}
+
+.explore{
+    text-align: center;
+    margin: 50px auto 0;
+    padding: 15px 30px;
+    background-color: black;
+    width: 180px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    text-shadow: 0 0 5px white;
+    color: white;
+    text-decoration: none;
+    font-size: 1.7rem;
+}
+
+.infoflex{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.imgflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img{
+    box-shadow: 0 0 3px rgb(218, 87, 178), 0 0 5px whitesmoke;
 }
